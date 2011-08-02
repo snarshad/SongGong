@@ -14,9 +14,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A7E0002113D15A3D0048B9EC"
-               BuildableName = "SongGong.app"
-               BlueprintName = "SongGong"
-               ReferencedContainer = "container:SongGong.xcodeproj">
+               BuildableName = "AutoPlay.app"
+               BlueprintName = "AutoPlay"
+               ReferencedContainer = "container:AutoPlay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,9 +40,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A7E0002113D15A3D0048B9EC"
-            BuildableName = "SongGong.app"
-            BlueprintName = "SongGong"
-            ReferencedContainer = "container:SongGong.xcodeproj">
+            BuildableName = "AutoPlay.app"
+            BlueprintName = "AutoPlay"
+            ReferencedContainer = "container:AutoPlay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A7E0002113D15A3D0048B9EC"
-            BuildableName = "SongGong.app"
-            BlueprintName = "SongGong"
-            ReferencedContainer = "container:SongGong.xcodeproj">
+            BuildableName = "AutoPlay.app"
+            BlueprintName = "AutoPlay"
+            ReferencedContainer = "container:AutoPlay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'SongGong' target in the 'SongGong' project
+// Prefix header for all source files of the 'AutoPlay' target in the 'AutoPlay' project
 //
 
 #import <Availability.h>

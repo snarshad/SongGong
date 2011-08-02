@@ -109,12 +109,12 @@
 		A7C4193213D2545C00C12455 /* SGGestureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGestureController.m; sourceTree = SOURCE_ROOT; };
 		A7D636D613D2662500E6F541 /* OPASpookSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPASpookSoundManager.h; sourceTree = SOURCE_ROOT; };
 		A7D636D713D2662500E6F541 /* OPASpookSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPASpookSoundManager.m; sourceTree = SOURCE_ROOT; };
-		A7E0002213D15A3D0048B9EC /* SongGong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongGong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E0002213D15A3D0048B9EC /* AutoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E0002613D15A3D0048B9EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7E0002813D15A3D0048B9EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7E0002A13D15A3D0048B9EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A7E0002E13D15A3D0048B9EC /* SongGong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SongGong-Info.plist"; sourceTree = "<group>"; };
-		A7E0003413D15A3D0048B9EC /* SongGong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SongGong-Prefix.pch"; sourceTree = "<group>"; };
+		A7E0002E13D15A3D0048B9EC /* AutoPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AutoPlay-Info.plist"; sourceTree = "<group>"; };
+		A7E0003413D15A3D0048B9EC /* AutoPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoPlay-Prefix.pch"; sourceTree = "<group>"; };
 		A7EA404C13D164FC008D9551 /* SongGongAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongGongAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		A7EA404D13D164FC008D9551 /* SongGongAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongGongAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		A7EA405613D16550008D9551 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
@@ -326,7 +326,7 @@
 		A7E0001713D15A3D0048B9EC = {
 			isa = PBXGroup;
 			children = (
-				A7E0002C13D15A3D0048B9EC /* SongGong */,
+				A7E0002C13D15A3D0048B9EC /* AutoPlay */,
 				A7E0002513D15A3D0048B9EC /* Frameworks */,
 				A7E0002313D15A3D0048B9EC /* Products */,
 			);
@@ -335,7 +335,7 @@
 		A7E0002313D15A3D0048B9EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7E0002213D15A3D0048B9EC /* SongGong.app */,
+				A7E0002213D15A3D0048B9EC /* AutoPlay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -355,7 +355,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A7E0002C13D15A3D0048B9EC /* SongGong */ = {
+		A7E0002C13D15A3D0048B9EC /* AutoPlay */ = {
 			isa = PBXGroup;
 			children = (
 				A71F71AF13E5DE4000548667 /* Sources */,
@@ -371,6 +371,7 @@
 				A7EA404D13D164FC008D9551 /* SongGongAppDelegate.m */,
 				A7E0002D13D15A3D0048B9EC /* Supporting Files */,
 			);
+			name = AutoPlay;
 			path = SongGong;
 			sourceTree = "<group>";
 		};
@@ -379,8 +380,8 @@
 			children = (
 				A7EA405813D1656D008D9551 /* InfoPlist.strings */,
 				A7EA405613D16550008D9551 /* main.m */,
-				A7E0002E13D15A3D0048B9EC /* SongGong-Info.plist */,
-				A7E0003413D15A3D0048B9EC /* SongGong-Prefix.pch */,
+				A7E0002E13D15A3D0048B9EC /* AutoPlay-Info.plist */,
+				A7E0003413D15A3D0048B9EC /* AutoPlay-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -400,9 +401,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7E0002113D15A3D0048B9EC /* SongGong */ = {
+		A7E0002113D15A3D0048B9EC /* AutoPlay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7E0005413D15A3D0048B9EC /* Build configuration list for PBXNativeTarget "SongGong" */;
+			buildConfigurationList = A7E0005413D15A3D0048B9EC /* Build configuration list for PBXNativeTarget "AutoPlay" */;
 			buildPhases = (
 				A7E0001E13D15A3D0048B9EC /* Sources */,
 				A7E0001F13D15A3D0048B9EC /* Frameworks */,
@@ -412,9 +413,9 @@
 			);
 			dependencies = (
 			);
-			name = SongGong;
+			name = AutoPlay;
 			productName = SongGong;
-			productReference = A7E0002213D15A3D0048B9EC /* SongGong.app */;
+			productReference = A7E0002213D15A3D0048B9EC /* AutoPlay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -426,7 +427,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "doubleTwist Corporation";
 			};
-			buildConfigurationList = A7E0001C13D15A3D0048B9EC /* Build configuration list for PBXProject "SongGong" */;
+			buildConfigurationList = A7E0001C13D15A3D0048B9EC /* Build configuration list for PBXProject "AutoPlay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -438,7 +439,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7E0002113D15A3D0048B9EC /* SongGong */,
+				A7E0002113D15A3D0048B9EC /* AutoPlay */,
 			);
 		};
 /* End PBXProject section */
@@ -574,8 +575,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SongGong-Prefix.pch";
-				INFOPLIST_FILE = "SongGong-Info.plist";
+				GCC_PREFIX_HEADER = "AutoPlay-Prefix.pch";
+				INFOPLIST_FILE = "AutoPlay-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -587,8 +588,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SongGong-Prefix.pch";
-				INFOPLIST_FILE = "SongGong-Info.plist";
+				GCC_PREFIX_HEADER = "AutoPlay-Prefix.pch";
+				INFOPLIST_FILE = "AutoPlay-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -599,7 +600,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7E0001C13D15A3D0048B9EC /* Build configuration list for PBXProject "SongGong" */ = {
+		A7E0001C13D15A3D0048B9EC /* Build configuration list for PBXProject "AutoPlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7E0005213D15A3D0048B9EC /* Debug */,
@@ -608,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7E0005413D15A3D0048B9EC /* Build configuration list for PBXNativeTarget "SongGong" */ = {
+		A7E0005413D15A3D0048B9EC /* Build configuration list for PBXNativeTarget "AutoPlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7E0005513D15A3D0048B9EC /* Debug */,
