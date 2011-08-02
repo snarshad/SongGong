@@ -3,7 +3,6 @@
 //  SongGong
 //
 //  Created by Daniel DeCovnick on 7/17/11.
-//  Copyright 2011 doubleTwist Corporation. All rights reserved.
 //
 
 #import "SGRdioSource.h"
@@ -26,7 +25,7 @@
 }
 - (void)dealloc
 {    
-    [self.playlists release];
+    [playlists release];
     [super dealloc];
 }
 

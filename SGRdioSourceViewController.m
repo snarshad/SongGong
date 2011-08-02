@@ -15,8 +15,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        iPodSource = [[SGRdioSource alloc] init];
-        iPodSource.delegate = self;
+        source = [[SGRdioSource alloc] init];
+        source.delegate = self;
         // Custom initialization
     }
     return self;

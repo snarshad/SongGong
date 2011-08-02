@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71F71AD13E5DACC00548667 /* DDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F71AC13E5DACC00548667 /* DDProgressView.m */; };
+		A71F71B413E5F19500548667 /* SGSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F71B213E5F19500548667 /* SGSourceViewController.m */; };
+		A71F71B513E5F19500548667 /* SGSourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71F71B313E5F19500548667 /* SGSourceViewController.xib */; };
+		A71F71BE13E7E00000548667 /* ExplodingTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F71BC13E7E00000548667 /* ExplodingTextViewController.m */; };
+		A71F71BF13E7E00000548667 /* ExplodingTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71F71BD13E7E00000548667 /* ExplodingTextViewController.xib */; };
+		A71F71C313E7E02B00548667 /* SGSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F71C213E7E02B00548667 /* SGSource.m */; };
 		A73D786013D38FED00837A2F /* BlankAudio.png in Resources */ = {isa = PBXBuildFile; fileRef = A73D785F13D38FED00837A2F /* BlankAudio.png */; };
 		A73D786313D39E2C00837A2F /* NSObject+SPInvocationGrabbing.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D786213D39E2B00837A2F /* NSObject+SPInvocationGrabbing.m */; };
-		A73D786613D3B6ED00837A2F /* DDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D786513D3B6ED00837A2F /* DDProgressView.m */; };
 		A73D786813D3C35600837A2F /* carousel_graygradient.png in Resources */ = {isa = PBXBuildFile; fileRef = A73D786713D3C35600837A2F /* carousel_graygradient.png */; };
 		A7462B6E13D36CF300C5CEB5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A7462B6D13D36CF300C5CEB5 /* icon.png */; };
 		A7462B9F13D3779600C5CEB5 /* mainicons_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A7462B9513D3779600C5CEB5 /* mainicons_1.png */; };
@@ -22,9 +27,6 @@
 		A7462BA613D3779600C5CEB5 /* mainicons_r_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A7462B9C13D3779600C5CEB5 /* mainicons_r_3.png */; };
 		A7462BA713D3779600C5CEB5 /* mainicons_r_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A7462B9D13D3779600C5CEB5 /* mainicons_r_4.png */; };
 		A7462BA813D3779600C5CEB5 /* mainicons_r_5.png in Resources */ = {isa = PBXBuildFile; fileRef = A7462B9E13D3779600C5CEB5 /* mainicons_r_5.png */; };
-		A7462BAC13D37B7D00C5CEB5 /* ExplodingTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7462BAA13D37B7D00C5CEB5 /* ExplodingTextViewController.m */; };
-		A7462BAD13D37B7D00C5CEB5 /* ExplodingTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7462BAB13D37B7D00C5CEB5 /* ExplodingTextViewController.xib */; };
-		A7462BB013D3841800C5CEB5 /* SGDummySource.m in Sources */ = {isa = PBXBuildFile; fileRef = A7462BAF13D3841700C5CEB5 /* SGDummySource.m */; };
 		A763031C13D2754C00F7682D /* SGIPodSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A763031B13D2754C00F7682D /* SGIPodSource.m */; };
 		A7B38D3113D2616A0067C53D /* nav-LeftRight.aiff in Resources */ = {isa = PBXBuildFile; fileRef = A7B38D2E13D2616A0067C53D /* nav-LeftRight.aiff */; };
 		A7B38D3213D2616A0067C53D /* nav-UpDown.aiff in Resources */ = {isa = PBXBuildFile; fileRef = A7B38D2F13D2616A0067C53D /* nav-UpDown.aiff */; };
@@ -64,11 +66,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A71F71AC13E5DACC00548667 /* DDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDProgressView.m; path = DDProgressView/DDProgressView.m; sourceTree = SOURCE_ROOT; };
+		A71F71AE13E5DAE200548667 /* DDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDProgressView.h; path = DDProgressView/DDProgressView.h; sourceTree = SOURCE_ROOT; };
+		A71F71B113E5F19500548667 /* SGSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSourceViewController.h; sourceTree = SOURCE_ROOT; };
+		A71F71B213E5F19500548667 /* SGSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSourceViewController.m; sourceTree = SOURCE_ROOT; };
+		A71F71B313E5F19500548667 /* SGSourceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGSourceViewController.xib; sourceTree = SOURCE_ROOT; };
+		A71F71BC13E7E00000548667 /* ExplodingTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplodingTextViewController.m; sourceTree = SOURCE_ROOT; };
+		A71F71BD13E7E00000548667 /* ExplodingTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExplodingTextViewController.xib; sourceTree = SOURCE_ROOT; };
+		A71F71C013E7E00900548667 /* ExplodingTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplodingTextViewController.h; sourceTree = SOURCE_ROOT; };
+		A71F71C113E7E02B00548667 /* SGSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSource.h; sourceTree = SOURCE_ROOT; };
+		A71F71C213E7E02B00548667 /* SGSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSource.m; sourceTree = SOURCE_ROOT; };
 		A73D785F13D38FED00837A2F /* BlankAudio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlankAudio.png; path = Resources/BlankAudio.png; sourceTree = SOURCE_ROOT; };
 		A73D786113D39E2B00837A2F /* NSObject+SPInvocationGrabbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPInvocationGrabbing.h"; sourceTree = SOURCE_ROOT; };
 		A73D786213D39E2B00837A2F /* NSObject+SPInvocationGrabbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPInvocationGrabbing.m"; sourceTree = SOURCE_ROOT; };
-		A73D786413D3B6ED00837A2F /* DDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDProgressView.h; path = DDProgressView/DDProgressView.h; sourceTree = "<group>"; };
-		A73D786513D3B6ED00837A2F /* DDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDProgressView.m; path = DDProgressView/DDProgressView.m; sourceTree = "<group>"; };
 		A73D786713D3C35600837A2F /* carousel_graygradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carousel_graygradient.png; sourceTree = SOURCE_ROOT; };
 		A7462B6D13D36CF300C5CEB5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = SOURCE_ROOT; };
 		A7462B9513D3779600C5CEB5 /* mainicons_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainicons_1.png; path = "Resources/carousel icons/mainicons_1.png"; sourceTree = SOURCE_ROOT; };
@@ -81,11 +91,6 @@
 		A7462B9C13D3779600C5CEB5 /* mainicons_r_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainicons_r_3.png; path = "Resources/carousel icons/mainicons_r_3.png"; sourceTree = SOURCE_ROOT; };
 		A7462B9D13D3779600C5CEB5 /* mainicons_r_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainicons_r_4.png; path = "Resources/carousel icons/mainicons_r_4.png"; sourceTree = SOURCE_ROOT; };
 		A7462B9E13D3779600C5CEB5 /* mainicons_r_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainicons_r_5.png; path = "Resources/carousel icons/mainicons_r_5.png"; sourceTree = SOURCE_ROOT; };
-		A7462BA913D37B7D00C5CEB5 /* ExplodingTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplodingTextViewController.h; sourceTree = "<group>"; };
-		A7462BAA13D37B7D00C5CEB5 /* ExplodingTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplodingTextViewController.m; sourceTree = "<group>"; };
-		A7462BAB13D37B7D00C5CEB5 /* ExplodingTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExplodingTextViewController.xib; sourceTree = "<group>"; };
-		A7462BAE13D3841700C5CEB5 /* SGDummySource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGDummySource.h; path = SongGong.xcodeproj/SGDummySource.h; sourceTree = SOURCE_ROOT; };
-		A7462BAF13D3841700C5CEB5 /* SGDummySource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGDummySource.m; path = SongGong.xcodeproj/SGDummySource.m; sourceTree = SOURCE_ROOT; };
 		A763031A13D2754C00F7682D /* SGIPodSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGIPodSource.h; sourceTree = SOURCE_ROOT; };
 		A763031B13D2754C00F7682D /* SGIPodSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGIPodSource.m; sourceTree = SOURCE_ROOT; };
 		A7B38D2E13D2616A0067C53D /* nav-LeftRight.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = "nav-LeftRight.aiff"; path = "Resources/navSounds/nav-LeftRight.aiff"; sourceTree = SOURCE_ROOT; };
@@ -162,6 +167,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A71F71A713E5D69C00548667 /* Soundcloud Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Soundcloud Source";
+			sourceTree = "<group>";
+		};
+		A71F71A813E5D6C200548667 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A71F71AE13E5DAE200548667 /* DDProgressView.h */,
+				A71F71AC13E5DACC00548667 /* DDProgressView.m */,
+				BCD1DEC613D2D67E000603F0 /* NSAttributedString+Attributes.h */,
+				BCD1DEC713D2D67E000603F0 /* NSAttributedString+Attributes.m */,
+				BCD1DEC813D2D67E000603F0 /* OHAttributedLabel.h */,
+				BCD1DEC913D2D67E000603F0 /* OHAttributedLabel.m */,
+				A73D786113D39E2B00837A2F /* NSObject+SPInvocationGrabbing.h */,
+				A73D786213D39E2B00837A2F /* NSObject+SPInvocationGrabbing.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A71F71A913E5D6FD00548667 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				A7C4192E13D2545C00C12455 /* SGCarouselViewController.h */,
+				A7C4192F13D2545C00C12455 /* SGCarouselViewController.m */,
+				A7C4193013D2545C00C12455 /* SGCarouselViewController.xib */,
+				BC6D345413D25995006DA25F /* iCarousel.h */,
+				BC6D345513D25995006DA25F /* iCarousel.m */,
+			);
+			name = iCarousel;
+			sourceTree = "<group>";
+		};
+		A71F71AA13E5D72500548667 /* Player View */ = {
+			isa = PBXGroup;
+			children = (
+				BC21289F13D2B8250087CE59 /* SGGenericPlayerView.h */,
+				BC2128A013D2B8250087CE59 /* SGGenericPlayerView.m */,
+				BC2128A113D2B8250087CE59 /* SGGenericPlayerView.xib */,
+			);
+			name = "Player View";
+			sourceTree = "<group>";
+		};
+		A71F71AB13E5D75C00548667 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				A7C4192C13D2545C00C12455 /* SGBlindGestureView.h */,
+				A7C4192D13D2545C00C12455 /* SGBlindGestureView.m */,
+				A7C4193113D2545C00C12455 /* SGGestureController.h */,
+				A7C4193213D2545C00C12455 /* SGGestureController.m */,
+			);
+			name = Gestures;
+			sourceTree = "<group>";
+		};
+		A71F71AF13E5DE4000548667 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A71F71BA13E7DFD000548667 /* Exploding Text */,
+				A71F71B013E5DE5200548667 /* Base Source */,
+				A763031D13D2754F00F7682D /* iPod Source */,
+				A71F71A713E5D69C00548667 /* Soundcloud Source */,
+				BC8F929913D3757300824DB6 /* Rdio Source */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		A71F71B013E5DE5200548667 /* Base Source */ = {
+			isa = PBXGroup;
+			children = (
+				A71F71B113E5F19500548667 /* SGSourceViewController.h */,
+				A71F71B213E5F19500548667 /* SGSourceViewController.m */,
+				A71F71B313E5F19500548667 /* SGSourceViewController.xib */,
+				A71F71C113E7E02B00548667 /* SGSource.h */,
+				A71F71C213E7E02B00548667 /* SGSource.m */,
+			);
+			name = "Base Source";
+			sourceTree = "<group>";
+		};
+		A71F71BA13E7DFD000548667 /* Exploding Text */ = {
+			isa = PBXGroup;
+			children = (
+				A71F71C013E7E00900548667 /* ExplodingTextViewController.h */,
+				A71F71BC13E7E00000548667 /* ExplodingTextViewController.m */,
+				A71F71BD13E7E00000548667 /* ExplodingTextViewController.xib */,
+			);
+			name = "Exploding Text";
+			sourceTree = "<group>";
+		};
 		A7462B9413D3778000C5CEB5 /* Carousel Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,11 +326,6 @@
 		A7E0001713D15A3D0048B9EC = {
 			isa = PBXGroup;
 			children = (
-				A73D786413D3B6ED00837A2F /* DDProgressView.h */,
-				A73D786513D3B6ED00837A2F /* DDProgressView.m */,
-				A7462BA913D37B7D00C5CEB5 /* ExplodingTextViewController.h */,
-				A7462BAA13D37B7D00C5CEB5 /* ExplodingTextViewController.m */,
-				A7462BAB13D37B7D00C5CEB5 /* ExplodingTextViewController.xib */,
 				A7E0002C13D15A3D0048B9EC /* SongGong */,
 				A7E0002513D15A3D0048B9EC /* Frameworks */,
 				A7E0002313D15A3D0048B9EC /* Products */,
@@ -269,34 +358,17 @@
 		A7E0002C13D15A3D0048B9EC /* SongGong */ = {
 			isa = PBXGroup;
 			children = (
-				A73D786113D39E2B00837A2F /* NSObject+SPInvocationGrabbing.h */,
-				A73D786213D39E2B00837A2F /* NSObject+SPInvocationGrabbing.m */,
-				BC8F929913D3757300824DB6 /* Rdio Source */,
-				A7462BAE13D3841700C5CEB5 /* SGDummySource.h */,
-				A7462BAF13D3841700C5CEB5 /* SGDummySource.m */,
-				A763031D13D2754F00F7682D /* iPod Source */,
+				A71F71AF13E5DE4000548667 /* Sources */,
+				A71F71AA13E5D72500548667 /* Player View */,
+				BCEDBD8F13D2343400BEA8FA /* SGCarouselProtocols.h */,
 				A7B38D3713D2623C0067C53D /* AudioPlayer */,
+				A71F71A813E5D6C200548667 /* Utilities */,
+				A71F71A913E5D6FD00548667 /* iCarousel */,
+				A71F71AB13E5D75C00548667 /* Gestures */,
 				A7B38D2D13D261590067C53D /* Images */,
 				A7B38D2C13D2614F0067C53D /* Sounds */,
-				BC6D345413D25995006DA25F /* iCarousel.h */,
-				BC6D345513D25995006DA25F /* iCarousel.m */,
-				A7C4192C13D2545C00C12455 /* SGBlindGestureView.h */,
-				A7C4192D13D2545C00C12455 /* SGBlindGestureView.m */,
-				BC21289F13D2B8250087CE59 /* SGGenericPlayerView.h */,
-				BC2128A013D2B8250087CE59 /* SGGenericPlayerView.m */,
-				BC2128A113D2B8250087CE59 /* SGGenericPlayerView.xib */,
-				A7C4192E13D2545C00C12455 /* SGCarouselViewController.h */,
-				A7C4192F13D2545C00C12455 /* SGCarouselViewController.m */,
-				A7C4193013D2545C00C12455 /* SGCarouselViewController.xib */,
-				A7C4193113D2545C00C12455 /* SGGestureController.h */,
-				A7C4193213D2545C00C12455 /* SGGestureController.m */,
 				A7EA404C13D164FC008D9551 /* SongGongAppDelegate.h */,
 				A7EA404D13D164FC008D9551 /* SongGongAppDelegate.m */,
-				BCD1DEC613D2D67E000603F0 /* NSAttributedString+Attributes.h */,
-				BCD1DEC713D2D67E000603F0 /* NSAttributedString+Attributes.m */,
-				BCD1DEC813D2D67E000603F0 /* OHAttributedLabel.h */,
-				BCD1DEC913D2D67E000603F0 /* OHAttributedLabel.m */,
-				BCEDBD8F13D2343400BEA8FA /* SGCarouselProtocols.h */,
 				A7E0002D13D15A3D0048B9EC /* Supporting Files */,
 			);
 			path = SongGong;
@@ -398,10 +470,11 @@
 				A7462BA613D3779600C5CEB5 /* mainicons_r_3.png in Resources */,
 				A7462BA713D3779600C5CEB5 /* mainicons_r_4.png in Resources */,
 				A7462BA813D3779600C5CEB5 /* mainicons_r_5.png in Resources */,
-				A7462BAD13D37B7D00C5CEB5 /* ExplodingTextViewController.xib in Resources */,
 				BCC1BFC713D38876004C0EE2 /* SGRdioSourceViewController.xib in Resources */,
 				A73D786013D38FED00837A2F /* BlankAudio.png in Resources */,
 				A73D786813D3C35600837A2F /* carousel_graygradient.png in Resources */,
+				A71F71B513E5F19500548667 /* SGSourceViewController.xib in Resources */,
+				A71F71BF13E7E00000548667 /* ExplodingTextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +499,13 @@
 				BC2128A213D2B8250087CE59 /* SGGenericPlayerView.m in Sources */,
 				BCD1DECA13D2D67E000603F0 /* NSAttributedString+Attributes.m in Sources */,
 				BCD1DECB13D2D67E000603F0 /* OHAttributedLabel.m in Sources */,
-				A7462BAC13D37B7D00C5CEB5 /* ExplodingTextViewController.m in Sources */,
 				BC8F929C13D375E500824DB6 /* SGRdioSource.m in Sources */,
-				A7462BB013D3841800C5CEB5 /* SGDummySource.m in Sources */,
 				BCC1BFC613D38876004C0EE2 /* SGRdioSourceViewController.m in Sources */,
 				A73D786313D39E2C00837A2F /* NSObject+SPInvocationGrabbing.m in Sources */,
-				A73D786613D3B6ED00837A2F /* DDProgressView.m in Sources */,
+				A71F71AD13E5DACC00548667 /* DDProgressView.m in Sources */,
+				A71F71B413E5F19500548667 /* SGSourceViewController.m in Sources */,
+				A71F71BE13E7E00000548667 /* ExplodingTextViewController.m in Sources */,
+				A71F71C313E7E02B00548667 /* SGSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

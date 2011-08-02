@@ -73,7 +73,7 @@ static OPASpookSoundManager *g_sharedSoundManager = nil;
 	{
 	    AudioServicesPlaySystemSound(soundID);
 	} else {
-		NSLog(@"Error playing sound %@ (%d)", soundFilename, serr);
+		NSLog(@"Error playing sound %@ (%ld)", soundFilename, serr);
 	}
 }
 
@@ -100,7 +100,8 @@ static void SoundPlayCompletionCallback (SystemSoundID  mySSID, void *userData)
 		
 		if (error == nil && player != nil)
 		{
-			[savedSoundPlayers setObject:player forKey:soundFilename]; 
+			[savedSoundPlayers setObject:player forKey:soundFilename];
+            [player release];
 		}
 	}
 		
@@ -108,7 +109,7 @@ static void SoundPlayCompletionCallback (SystemSoundID  mySSID, void *userData)
 	{
 	    [player play];
 	} else {
-		NSLog(@"Error playing sound %@ (%d)", soundFilename, error);
+		NSLog(@"Error playing sound %@ (%@)", soundFilename, error);
 	}
 }
 

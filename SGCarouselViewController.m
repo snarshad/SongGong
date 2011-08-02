@@ -43,7 +43,7 @@
 
 - (void)dealloc
 {
-    [self.gestureController release];
+    [gestureController release];
     [carouselSourceViewControllers release];
     [super dealloc];
 }

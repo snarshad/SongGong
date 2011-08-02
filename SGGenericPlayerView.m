@@ -3,7 +3,6 @@
 //  SongGong
 //
 //  Created by Daniel DeCovnick on 7/16/11.
-//  Copyright 2011 doubleTwist Corporation. All rights reserved.
 //
 
 #import "SGGenericPlayerView.h"
@@ -71,6 +70,7 @@
     [mas setTextColor:[UIColor colorWithRed:102.0/255.0 green:102.0/255.0 blue:102.0/255.0 alpha:1.0] range:NSMakeRange(title.length+2+artist.length, album.length)];
     [mas setFontFamily:@"Helvetica" size:17.0 bold:YES italic:NO range:NSMakeRange(title.length+2+artist.length, album.length)];
     attributedLabel.attributedText = mas;
+    [mas release];
     songProgress.progress = playItem.progress;
     
     [(NSObject *)playItem addObserver:self forKeyPath:@"progress" options:0 context:nil];

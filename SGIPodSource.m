@@ -69,7 +69,7 @@
     [[MPMediaLibrary defaultMediaLibrary] endGeneratingLibraryChangeNotifications];
     [[MPMusicPlayerController applicationMusicPlayer] endGeneratingPlaybackNotifications];
 
-    [self.playlists release];
+    [playlists release];
     [super dealloc];
 }
 
@@ -253,6 +253,7 @@
     SGIPodItem *item = [[SGIPodItem alloc] initWithiPodItem:[mpc nowPlayingItem]];
     [self.currentPlaylist setCurrentItem:item];
     self.currentItem = item;
+    [item release];
 }
 
 @end
