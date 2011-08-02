@@ -3,7 +3,7 @@
 //  SongGong
 //
 //  Created by Arshad Tayyeb on 7/17/11.
-//  Copyright 2011 doubleTwist Corporation. All rights reserved.
+//  Copyright 2011  Corporation. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

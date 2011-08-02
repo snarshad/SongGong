@@ -3,7 +3,7 @@
 //  SongGong
 //
 //  Created by Daniel DeCovnick on 7/16/11.
-//  Copyright 2011 doubleTwist Corporation. All rights reserved.
+//  Copyright 2011  Corporation. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
