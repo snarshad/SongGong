@@ -6,7 +6,7 @@
 #import "SGIPodSourceViewController.h"
 #import "SGGenericPlayerView.h"
 #import "SGIPodSource.h"
-#import "SGCarouselProtocols.h"
+#import "SGSourceProtocols.h"
 #import "ExplodingTextViewController.h"
 #import "SongGongAppDelegate.h"
 
@@ -19,8 +19,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        source = [[SGIPodSource alloc] init];
-        source.delegate = self;
+        self.source = [[SGIPodSource alloc] init];
+        self.source.delegate = self;
     }
     return self;
 }

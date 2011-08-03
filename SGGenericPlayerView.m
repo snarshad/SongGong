@@ -7,7 +7,7 @@
 
 #import "SGGenericPlayerView.h"
 #import "OHAttributedLabel.h"
-#import "SGCarouselProtocols.h"
+#import "SGSourceProtocols.h"
 #import "NSAttributedString+Attributes.h"
 #import "NSObject+SPInvocationGrabbing.h"
 #import "DDProgressView.h"
@@ -49,7 +49,7 @@
     if (playItem != aPlayItem)
     {
         [aPlayItem retain];
-        [(NSObject<SGCarouselItem>*)playItem release];
+        [(NSObject<SGSource>*)playItem release];
         playItem = aPlayItem;
     }
 

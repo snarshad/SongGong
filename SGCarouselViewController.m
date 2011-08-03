@@ -7,7 +7,7 @@
 //
 
 #import "SGCarouselViewController.h"
-#import "SGCarouselProtocols.h"
+#import "SGSourceProtocols.h"
 #import "SGGestureController.h"
 #import "OPASpookSoundManager.h"
 #import "iCarousel.h"

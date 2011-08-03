@@ -12,7 +12,6 @@
 		A71F71B513E5F19500548667 /* SGSourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71F71B313E5F19500548667 /* SGSourceViewController.xib */; };
 		A71F71BE13E7E00000548667 /* ExplodingTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F71BC13E7E00000548667 /* ExplodingTextViewController.m */; };
 		A71F71BF13E7E00000548667 /* ExplodingTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71F71BD13E7E00000548667 /* ExplodingTextViewController.xib */; };
-		A71F71C313E7E02B00548667 /* SGSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F71C213E7E02B00548667 /* SGSource.m */; };
 		A73D786013D38FED00837A2F /* BlankAudio.png in Resources */ = {isa = PBXBuildFile; fileRef = A73D785F13D38FED00837A2F /* BlankAudio.png */; };
 		A73D786313D39E2C00837A2F /* NSObject+SPInvocationGrabbing.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D786213D39E2B00837A2F /* NSObject+SPInvocationGrabbing.m */; };
 		A73D786813D3C35600837A2F /* carousel_graygradient.png in Resources */ = {isa = PBXBuildFile; fileRef = A73D786713D3C35600837A2F /* carousel_graygradient.png */; };
@@ -74,8 +73,6 @@
 		A71F71BC13E7E00000548667 /* ExplodingTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplodingTextViewController.m; sourceTree = SOURCE_ROOT; };
 		A71F71BD13E7E00000548667 /* ExplodingTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExplodingTextViewController.xib; sourceTree = SOURCE_ROOT; };
 		A71F71C013E7E00900548667 /* ExplodingTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplodingTextViewController.h; sourceTree = SOURCE_ROOT; };
-		A71F71C113E7E02B00548667 /* SGSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSource.h; sourceTree = SOURCE_ROOT; };
-		A71F71C213E7E02B00548667 /* SGSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSource.m; sourceTree = SOURCE_ROOT; };
 		A73D785F13D38FED00837A2F /* BlankAudio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlankAudio.png; path = Resources/BlankAudio.png; sourceTree = SOURCE_ROOT; };
 		A73D786113D39E2B00837A2F /* NSObject+SPInvocationGrabbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPInvocationGrabbing.h"; sourceTree = SOURCE_ROOT; };
 		A73D786213D39E2B00837A2F /* NSObject+SPInvocationGrabbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPInvocationGrabbing.m"; sourceTree = SOURCE_ROOT; };
@@ -142,7 +139,7 @@
 		BCD1DEC813D2D67E000603F0 /* OHAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHAttributedLabel.h; sourceTree = SOURCE_ROOT; };
 		BCD1DEC913D2D67E000603F0 /* OHAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHAttributedLabel.m; sourceTree = SOURCE_ROOT; };
 		BCD1DECC13D2D714000603F0 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		BCEDBD8F13D2343400BEA8FA /* SGCarouselProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGCarouselProtocols.h; sourceTree = SOURCE_ROOT; };
+		BCEDBD8F13D2343400BEA8FA /* SGSourceProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SGSourceProtocols.h; sourceTree = SOURCE_ROOT; };
 		BCEDBD9113D23BCE00BEA8FA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		BCEDBD9213D23BCF00BEA8FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BCEDBD9513D2431400BEA8FA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -225,6 +222,7 @@
 		A71F71AF13E5DE4000548667 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BCEDBD8F13D2343400BEA8FA /* SGSourceProtocols.h */,
 				A71F71BA13E7DFD000548667 /* Exploding Text */,
 				A71F71B013E5DE5200548667 /* Base Source */,
 				A763031D13D2754F00F7682D /* iPod Source */,
@@ -240,8 +238,6 @@
 				A71F71B113E5F19500548667 /* SGSourceViewController.h */,
 				A71F71B213E5F19500548667 /* SGSourceViewController.m */,
 				A71F71B313E5F19500548667 /* SGSourceViewController.xib */,
-				A71F71C113E7E02B00548667 /* SGSource.h */,
-				A71F71C213E7E02B00548667 /* SGSource.m */,
 			);
 			name = "Base Source";
 			sourceTree = "<group>";
@@ -360,7 +356,6 @@
 			children = (
 				A71F71AF13E5DE4000548667 /* Sources */,
 				A71F71AA13E5D72500548667 /* Player View */,
-				BCEDBD8F13D2343400BEA8FA /* SGCarouselProtocols.h */,
 				A7B38D3713D2623C0067C53D /* AudioPlayer */,
 				A71F71A813E5D6C200548667 /* Utilities */,
 				A71F71A913E5D6FD00548667 /* iCarousel */,
@@ -506,7 +501,6 @@
 				A71F71AD13E5DACC00548667 /* DDProgressView.m in Sources */,
 				A71F71B413E5F19500548667 /* SGSourceViewController.m in Sources */,
 				A71F71BE13E7E00000548667 /* ExplodingTextViewController.m in Sources */,
-				A71F71C313E7E02B00548667 /* SGSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

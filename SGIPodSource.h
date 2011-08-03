@@ -3,28 +3,14 @@
 //  SongGong
 //
 //  Created by Arshad Tayyeb on 7/16/11.
-//  Copyright 2011  Corporation. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "SGCarouselProtocols.h"
-#import "SGSource.h"
+#import "SGSourceProtocols.h"
 
 @class MPMusicPlayerController;
 
-@interface SGIPodSource : SGSource
-
-- (void)play:(id)sender;
-- (void)togglePlay:(id)sender;
-- (void)stop:(id)sender;
-
-- (id <SGMediaPlaylist>)previousPlaylist;
-- (id <SGMediaPlaylist>)nextPlaylist;
-@property (readwrite, retain) id <SGMediaItem> currentItem;
-@property (readwrite, retain) NSString *sourceName;
-@property (nonatomic, retain) id <SGMediaPlaylist> currentPlaylist;
-@property (readwrite, retain) NSArray *playlists;
-@property (readwrite, assign) id<SGSourceDelegate> delegate;
+@interface SGIPodSource : NSObject <SGSource>
 
 @end
 
@@ -40,7 +26,6 @@
 
 
 
-@class SGIPodItem, SGIPodPlaylist;
 @interface SGIPodItem : NSObject <SGMediaItem>
 - (void)togglePlay:(id)sender;
 @property (readwrite, retain) MPMusicPlayerController *player;

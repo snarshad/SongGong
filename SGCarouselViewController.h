@@ -8,17 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "SGGestureController.h"
-#import "SGCarouselProtocols.h"
+#import "SGSourceProtocols.h"
 
 @class SGGestureController;
-@protocol SGGestureControllerDelegate, SGCarouselItemViewController;
+@protocol SGGestureControllerDelegate, SGSourceViewController;
 @class iCarousel;
 
 
 @interface SGCarouselViewController : UIViewController <SGGestureControllerDelegate>
 {
-    id <SGCarouselItem> currentCarouselSource;
-    NSArray *carouselSourceViewControllers; //SGCarouselItemViewController
+    id <SGSource> currentCarouselSource;
+    NSArray *carouselSourceViewControllers; //SGSourceViewController
     iCarousel *carousel;
     NSInteger currentCarouselItemIndex;
     BOOL wrap;

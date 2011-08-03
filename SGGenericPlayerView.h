@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class OHAttributedLabel, DDProgressView;
-@protocol SGMediaItem, SGCarouselItem;
+@protocol SGMediaItem, SGSource;
 
 @interface SGGenericPlayerView : UIViewController {
     UIImageView *artworkView;
@@ -28,6 +28,6 @@
 @property (nonatomic, retain) IBOutlet UIImageView *artworkView;
 @property (nonatomic, retain) IBOutlet OHAttributedLabel *attributedLabel;
 @property (readwrite, nonatomic, retain) id <SGMediaItem> playItem;
-@property (readwrite, retain) id <SGCarouselItem> source;
+@property (readwrite, retain) id <SGSource> source;
 @property (readwrite, retain) NSTimer *progressTimer;
 @end

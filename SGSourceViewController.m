@@ -3,13 +3,11 @@
 //  SongGong
 //
 //  Created by Arshad Tayyeb on 7/31/11.
-//  Copyright 2011  Corporation. All rights reserved.
 //
 
 #import "SGSourceViewController.h"
 #import "SGGenericPlayerView.h"
-#import "SGSource.h"
-#import "SGCarouselProtocols.h"
+#import "SGSourceProtocols.h"
 #import "ExplodingTextViewController.h"
 #import "SongGongAppDelegate.h"
 
@@ -22,11 +20,7 @@
 
 
 @implementation SGSourceViewController
-@synthesize bottomView;
-@synthesize topView;
-@synthesize colorSplash;
-@synthesize source;
-
+@synthesize colorSplash, bottomView, topView, source;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

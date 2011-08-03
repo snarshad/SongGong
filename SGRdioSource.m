@@ -25,27 +25,20 @@
 }
 - (void)dealloc
 {    
-    [playlists release];
     [super dealloc];
 }
 
 #pragma mark -
 
+
 - (void)play:(id)sender
 {
-    if (self.currentPlaylist == nil)
-    {
-        if (self.playlists.count > 0)
-        {
-            self.currentPlaylist = [self.playlists objectAtIndex:0];
-        }
-    }
     
 }
 
 - (void)stop:(id)sender
 {
-
+    
 }
 
 - (void)setCurrentPlaylist:(id<SGMediaPlaylist>)playlist
@@ -66,7 +59,6 @@
     }
     
     //TODO: set current playlist
-    //    [[MPMusicPlayerController applicationMusicPlayer] ];
     
 }
 
@@ -78,8 +70,6 @@
     id <SGMediaPlaylist>next = [self nextPlaylist];
     if (!next)
         return;
-    
-    
     
 }
 
@@ -151,10 +141,7 @@
 @end
 
 @implementation SGRdioPlaylist
-@synthesize title, currentItem, itemIds, persistentId;
-
-
-
+@synthesize title, currentItem;
 
 - (id <SGMediaItem>)previousItem
 {
@@ -173,10 +160,10 @@
 @end
 
 
+
+
 @implementation SGRdioItem
-@synthesize title,album,artist,thumbnail, persistentId;
-
-
+@synthesize title,album,artist,thumbnail;
 
 - (UIImage *)thumbnail
 {

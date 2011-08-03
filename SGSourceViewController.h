@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SGSource.h"
+#import "SGSourceProtocols.h"
 #import "SGGenericPlayerView.h"
 
-@interface SGSourceViewController : UIViewController <SGCarouselItemViewController, SGSourceDelegate>
+@interface SGSourceViewController : UIViewController <SGSourceViewController, SGSourceDelegate>
 {
-    SGSource *source;
+    id<SGSource> source;
     IBOutlet UIImageView *artworkOrIcon;
     IBOutlet UILabel *playlistNameLabel;
     IBOutlet UILabel *titleLabel;
@@ -23,7 +23,6 @@
     SGGenericPlayerView *playerViewController;
     CGRect origPlaylistNameLabelFrame;
     UIView *topView;
-    UIView *colorSplash;
     UIView *bottomView;
 }
 
