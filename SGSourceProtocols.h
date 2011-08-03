@@ -1,17 +1,16 @@
 //
-//  SGCarouselProtocols.h
+//  SGSourceProtocols.h
 //  SongGong
 //
 //  Created by Daniel DeCovnick on 7/16/11.
-//  Copyright 2011  Corporation. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@protocol SGMediaItem, SGMediaPlaylist, SGCarouselItem;
+@protocol SGMediaItem, SGMediaPlaylist, SGSource, SGSourceDelegate;
 
-@protocol SGCarouselItemViewController <NSObject>
-@property (readwrite, retain) id <SGCarouselItem> source;
+@protocol SGSourceViewController <NSObject>
+@property (readwrite, retain) id <SGSource> source;
 @property (readonly, retain) UIView *carouselDisplayView;
 @optional
 -(void)carouselWillBringViewToFront;
@@ -21,8 +20,9 @@
 -(void)popGenericPlayer;
 @end
 
-@protocol SGCarouselItem <NSObject>
+@protocol SGSource <NSObject>
 - (void)togglePlay:(id)sender;
+- (void)play:(id)sender;
 - (void)stop:(id)sender;
 
 - (void)playNextItem;
@@ -38,7 +38,7 @@
 @property (nonatomic, retain) id <SGMediaPlaylist> currentPlaylist;
 @property (readwrite, retain) NSArray *playlists;
 @property (readwrite, retain) UIColor *splashColor;
-
+@property (readwrite, assign) id<SGSourceDelegate> delegate;
 @end
 
 @protocol SGMediaItem <NSObject>
